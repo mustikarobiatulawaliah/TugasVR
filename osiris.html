@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.3.3/dist/aframe-environment-component.min.js"></script>>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.2.0/dist/aframe-extras.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@^4.0.0/dist/aframe-event-set-component.min.js"></script>
+    <script>
+      AFRAME.registerComponent('navigate-on-click', {
+          schema: {
+              url: {
+                  default: ''
+              }
+          },
+
+          init: function () {
+              var data = this.data;
+              var el = this.el;
+
+              el.addEventListener('click', function () {
+                  window.location.href = data.url;
+              });
+          }
+      });
+  </script>
+  </head>
+  <body>
+    <a-scene environment="preset:osiris">
+      <a-assets>
+        <img id="starry" src="assets/starry.jpg">
+        <img id="goaland" src="assets/goaland.jpg">
+        <img id="goldmine" src="assets/goldmine.jpg">
+        <img id="osiris" src="assets/osiris.jpg">
+        <a-assets>
+          <a-asset-item id="osiris" src="assets/osiris/scene.gltf"></a-asset-item>
+          <a-asset-item id="cofin" src="assets/coffin_of_amunred__ncma_explore/scene.gltf"></a-asset-item>
+          <a-asset-item id="statue" src="assets/statue_of_osiris/scene.gltf"></a-asset-item>
+          <a-asset-item id="upper_part" src="assets/upper_part_of_egyptian_anthropoid_coffin/scene.gltf"></a-asset-item>
+        </a-assets>
+      </a-assets>
+      <a-entity look-controls cursor="rayOrigin: mouse"></a-entity>
+      <a-entity position="-3 0.5 -5" geometry="primitive: box" material="color: gold"
+      animation__mouseenter="property: components.material.material.color; type: color; to: blue; startEvents: mouseenter; dur: 500"
+      animation__mouseleave="property: components.material.material.color; type: color; to: gold; startEvents: mouseleave; dur: 500">
+    </a-entity>
+      <a-circle src="#starry" color="#ffffff" radius="0.5" position="-1 2 -5" event-set__enter="_event: mouseenter; event-set__leave="
+      _event: mouseleave; color: #C0CED0 navigate-on-click="url:starry.html "></a-circle>
+      <a-circle src="#goaland" color="#ffffff" radius="0.5" position="1 2 -5" event-set__enter="_event: mouseenter; event-set__leave="
+      _event: mouseleave; color: #C0CED0 navigate-on-click="url:goaland.html "></a-circle>
+      <a-circle src="#goldmine" color="#ffffff" radius="0.5" position="3 2 -5" event-set__enter="_event: mouseenter; event-set__leave="
+      _event: mouseleave; color: #C0CED0 navigate-on-click="url:index.html "></a-circle>
+      <a-circle src="#osiris" color="#ffffff" radius="0.5" position="5 2 -5" event-set__enter="_event: mouseenter; event-set__leave="
+      _event: mouseleave; color: #C0CED0 navigate-on-click="url:osiris.html "></a-circle>
+      <a-entity gltf-model="#cofin" position="-1 0.2 -5" scale="0.7 0.7 0.7"></a-entity>
+      <a-entity gltf-model="#cofin" position="1 0.2 -7" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#statue" position="3 0.2 -5" rotation="0 180 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#upper_part" position="5.2 0.2 -5" scale="0.2 0.2 0.2"></a-entity>
+      <!-- <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sky color="#ECECEC"></a-sky> -->
+    </a-scene>
+  </body>
+</html>

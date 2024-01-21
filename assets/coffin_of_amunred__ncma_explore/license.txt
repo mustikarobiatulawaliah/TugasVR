@@ -1,0 +1,11 @@
+Model Information:
+* title:	Coffin of Amunred | NCMA Explore
+* source:	https://sketchfab.com/3d-models/coffin-of-amunred-ncma-explore-0f989aa04d6d4bd8a0f7440cdfc21647
+* author:	NCMA Explore | North Carolina Museum of Art (https://sketchfab.com/ncmaexplore)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Coffin of Amunred | NCMA Explore" (https://sketchfab.com/3d-models/coffin-of-amunred-ncma-explore-0f989aa04d6d4bd8a0f7440cdfc21647) by NCMA Explore | North Carolina Museum of Art (https://sketchfab.com/ncmaexplore) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

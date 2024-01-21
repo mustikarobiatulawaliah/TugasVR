@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.3.3/dist/aframe-environment-component.min.js"></script>>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.2.0/dist/aframe-extras.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@^4.0.0/dist/aframe-event-set-component.min.js"></script>
+    <script>
+      AFRAME.registerComponent('navigate-on-click', {
+          schema: {
+              url: {
+                  default: ''
+              }
+          },
+
+          init: function () {
+              var data = this.data;
+              var el = this.el;
+
+              el.addEventListener('click', function () {
+                  window.location.href = data.url;
+              });
+          }
+      });
+  </script>
+  </head>
+  <body>
+    <a-scene environment="preset:starry">
+      <a-assets>
+        <img id="starry" src="assets/starry.jpg">
+        <img id="goaland" src="assets/goaland.jpg">
+        <img id="goldmine" src="assets/goldmine.jpg">
+        <img id="osiris" src="assets/osiris.jpg">
+        <a-assets>
+          <a-asset-item id="gold_star" src="assets/gold_star/scene.gltf"></a-asset-item>
+          <a-asset-item id="bintang" src="assets/bintang/scene.gltf"></a-asset-item>
+          <a-asset-item id="little_star" src="assets/little_star/scene.gltf"></a-asset-item>
+          <a-asset-item id="stylized_moon" src="assets/stylized_moon/scene.gltf"></a-asset-item>
+        </a-assets>
+      </a-assets>
+      <a-entity look-controls cursor="rayOrigin: mouse"></a-entity>
+      <a-entity position="-3 1 -5" geometry="primitive: box" material="color: black"
+      animation__mouseenter="property: components.material.material.color; type: color; to: pink; startEvents: mouseenter; dur: 500"
+      animation__mouseleave="property: components.material.material.color; type: color; to: black; startEvents: mouseleave; dur: 500">
+    </a-entity>
+      <a-circle src="#starry" color="#ffffff" radius="0.5" position="-1 2 -5" event-set__enter="_event: mouseenter; event-set__leave="
+      _event: mouseleave; color: #C0CED0 navigate-on-click="url:starry.html "></a-circle>
+      <a-circle src="#goaland" color="#ffffff" radius="0.5" position="1 2 -5" event-set__enter="_event: mouseenter; event-set__leave="
+      _event: mouseleave; color: #C0CED0 navigate-on-click="url:goaland.html "></a-circle>
+      <a-circle src="#goldmine" color="#ffffff" radius="0.5" position="3 2 -5" event-set__enter="_event: mouseenter; event-set__leave="
+      _event: mouseleave; color: #C0CED0 navigate-on-click="url:index.html "></a-circle>
+      <a-circle src="#osiris" color="#ffffff" radius="0.5" position="5 2 -5" event-set__enter="_event: mouseenter; event-set__leave="
+      _event: mouseleave; color: #C0CED0 navigate-on-click="url:osiris.html "></a-circle>
+      <a-entity gltf-model="#gold_star" position="-1 3 -5" scale="0.01 0.01 0.01"></a-entity>
+      <a-entity gltf-model="#bintang" position="0.9 4 -5" scale="4 4 4"></a-entity>
+      <a-entity gltf-model="#little_star" position="2.8 3 -5" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#stylized_moon" position="5 4 -5" scale="0.5 0.5 0.5"></a-entity>
+      <!-- <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sky color="#ECECEC"></a-sky> -->
+      <a-entity rotation="0 0.8 -3" animation="property: rotation; to: 0 240 0; loop: true; dur: 7000">
+        <a-sphere position="6 2 -3" color="black" scale="0.5 0.5 0.5"></a-sphere>
+      </a-entity>
+    </a-scene>
+  </body>
+</html>

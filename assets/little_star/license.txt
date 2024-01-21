@@ -1,0 +1,11 @@
+Model Information:
+* title:	Little Star
+* source:	https://sketchfab.com/3d-models/little-star-102f3c5376a64ef0b2654661d9a48094
+* author:	vallenciazhng_ (https://sketchfab.com/vallenciazhng_)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Little Star" (https://sketchfab.com/3d-models/little-star-102f3c5376a64ef0b2654661d9a48094) by vallenciazhng_ (https://sketchfab.com/vallenciazhng_) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

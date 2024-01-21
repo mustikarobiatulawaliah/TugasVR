@@ -1,0 +1,11 @@
+Model Information:
+* title:	Jamur Jumii
+* source:	https://sketchfab.com/3d-models/jamur-jumii-96593032a4024f6ba84efdb575ab6fc7
+* author:	Jumiratul Hasanah (https://sketchfab.com/Jumiratul)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Jamur Jumii" (https://sketchfab.com/3d-models/jamur-jumii-96593032a4024f6ba84efdb575ab6fc7) by Jumiratul Hasanah (https://sketchfab.com/Jumiratul) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

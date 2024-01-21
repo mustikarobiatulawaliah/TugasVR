@@ -1,0 +1,11 @@
+Model Information:
+* title:	Jamur (Mushroom)
+* source:	https://sketchfab.com/3d-models/jamur-mushroom-a4c9495f32c9446d87aed4a6f1382cc5
+* author:	Astari28 (https://sketchfab.com/Astari28)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Jamur (Mushroom)" (https://sketchfab.com/3d-models/jamur-mushroom-a4c9495f32c9446d87aed4a6f1382cc5) by Astari28 (https://sketchfab.com/Astari28) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

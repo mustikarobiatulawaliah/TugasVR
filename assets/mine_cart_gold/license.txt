@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mine Cart Gold
+* source:	https://sketchfab.com/3d-models/mine-cart-gold-ba9cdea66f0943a2aa227cabeeec6b8f
+* author:	Xillute | Dev (https://sketchfab.com/janchristian)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mine Cart Gold" (https://sketchfab.com/3d-models/mine-cart-gold-ba9cdea66f0943a2aa227cabeeec6b8f) by Xillute | Dev (https://sketchfab.com/janchristian) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
