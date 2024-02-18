@@ -1,0 +1,11 @@
+Model Information:
+* title:	Crocodile toy
+* source:	https://sketchfab.com/3d-models/crocodile-toy-dd02470afbb7406f84560810b0de1841
+* author:	Kea-Makerlab (https://sketchfab.com/Kea-Makerlab)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Crocodile toy" (https://sketchfab.com/3d-models/crocodile-toy-dd02470afbb7406f84560810b0de1841) by Kea-Makerlab (https://sketchfab.com/Kea-Makerlab) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
